@@ -9,6 +9,8 @@
 
 @interface UIColor (ALToolkitAdditions)
 
-+ (UIColor *)r:(CGFloat)red g:(CGFloat)green b:(CGFloat)blue;
++ (UIColor *)colorWithR:(CGFloat)red G:(CGFloat)green B:(CGFloat)blue;
++ (UIColor *)colorWithW:(CGFloat)white;
++ (UIColor *)colorFromHexString:(NSString *)hexString;
 
 @end

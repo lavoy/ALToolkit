@@ -6,6 +6,10 @@
 //
 
 #import "NSArray+ALToolkitAdditions.h"
+#import "NSDictionary+ALToolkitAdditions.h"
 #import "NSUserDefaults+ALToolkitAdditions.h"
 #import "UIColor+ALToolkitAdditions.h"
 #import "UIView+ALToolkitAdditions.h"
+#import "UIScreen+ALToolkitAdditions.h"
+#import "NSString+ALToolkitAdditions.h"
+#import "ALGradientView.h"

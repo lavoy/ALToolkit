@@ -32,6 +32,7 @@
 // Centering
 - (void)centerHorizontallyInSuperview;
 - (void)centerVerticallyInSuperview;
+- (void)centerVerticallyAsideView:(UIView *)view;
 - (void)centerInSuperview;
 - (void)addCenteredSubview:(UIView *)subview;
 

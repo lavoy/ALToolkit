@@ -107,6 +107,10 @@
 	self.frameY = roundf(((self.superview.boundsHeight - self.frameHeight) / 2));
 }
 
+- (void)centerVerticallyAsideView:(UIView *)view {
+	self.frameY = roundf((((view.frameBottom - view.frameY) - self.frameHeight) / 2) + view.frameY);
+}
+
 - (void)centerInSuperview {
     [self centerHorizontallyInSuperview];
     [self centerVerticallyInSuperview];
