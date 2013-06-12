@@ -24,4 +24,24 @@
 }
 
 
+- (NSArray *)al_map:(id (^)(id obj, NSUInteger idx))block {
+    NSMutableArray *result = [NSMutableArray arrayWithCapacity:[self count]];
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        [result addObject:block(obj, idx)];
+    }];
+    return result;
+}
+
+
+- (NSArray *)al_filter:(id (^)(id obj, NSUInteger idx))block {
+    NSMutableArray *result = [NSMutableArray arrayWithCapacity:[self count]];
+    [self enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if (block(obj, idx)) {
+            [result addObject:obj];
+        }
+    }];
+    return result;
+}
+
+
 @end

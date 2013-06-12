@@ -10,5 +10,7 @@
 @interface NSArray (ALToolkitAdditions)
 
 - (id)safeObjectAtIndex:(NSUInteger)iIndex;
+- (NSArray *)al_map:(id (^)(id obj, NSUInteger idx))block;
+- (NSArray *)al_filter:(id (^)(id obj, NSUInteger idx))block;
 
 @end
