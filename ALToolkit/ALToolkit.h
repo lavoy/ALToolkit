@@ -12,3 +12,13 @@
 #import "UIView+ALToolkitAdditions.h"
 #import "UIScreen+ALToolkitAdditions.h"
 #import "NSString+ALToolkitAdditions.h"
+
+static UIViewAutoresizing const UIViewAutoresizingFlexibleWidthAndHeight =
+    UIViewAutoresizingFlexibleWidth |
+    UIViewAutoresizingFlexibleHeight;
+
+static UIViewAutoresizing const UIViewAutoresizingFlexibleAllMargins =
+    UIViewAutoresizingFlexibleLeftMargin |
+    UIViewAutoresizingFlexibleRightMargin |
+    UIViewAutoresizingFlexibleTopMargin |
+    UIViewAutoresizingFlexibleBottomMargin;
