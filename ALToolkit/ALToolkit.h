@@ -12,4 +12,3 @@
 #import "UIView+ALToolkitAdditions.h"
 #import "UIScreen+ALToolkitAdditions.h"
 #import "NSString+ALToolkitAdditions.h"
-#import "ALGradientView.h"

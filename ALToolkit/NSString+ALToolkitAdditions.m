@@ -1,6 +1,5 @@
 //
 //  NSString+ALToolkitAdditions.m
-//  Scoreboard
 //
 //  Created by Andy LaVoy on 6/2/13.
 //  Copyright (c) 2013 Log Cabin. All rights reserved.
