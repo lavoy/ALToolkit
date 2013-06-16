@@ -7,6 +7,7 @@
 
 #import "NSArray+ALToolkitAdditions.h"
 #import "NSDictionary+ALToolkitAdditions.h"
+#import "NSOrderedSet+ALToolkitAdditions.h"
 #import "NSUserDefaults+ALToolkitAdditions.h"
 #import "UIColor+ALToolkitAdditions.h"
 #import "UIView+ALToolkitAdditions.h"
@@ -22,3 +23,7 @@ static UIViewAutoresizing const UIViewAutoresizingFlexibleAllMargins =
     UIViewAutoresizingFlexibleRightMargin |
     UIViewAutoresizingFlexibleTopMargin |
     UIViewAutoresizingFlexibleBottomMargin;
+
+#define SYSTEM_VERSION_AT_LEAST(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
