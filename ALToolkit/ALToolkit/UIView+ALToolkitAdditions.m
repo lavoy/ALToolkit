@@ -104,7 +104,14 @@
 }
 
 - (void)centerVerticallyInSuperview {
-	self.frameY = roundf(((self.superview.boundsHeight - self.frameHeight) / 2));
+    CGFloat boundsHeight = self.superview.boundsHeight;
+    CGFloat offset = 0;
+    if ([self.superview isKindOfClass:[UIScrollView class]]) {
+        UIScrollView *scrollView = (UIScrollView *) self.superview;
+        offset = scrollView.contentOffset.y;
+    }
+    
+	self.frameY = roundf(((boundsHeight - self.frameHeight) / 2)) + offset;
 }
 
 - (void)centerVerticallyAsideView:(UIView *)view {

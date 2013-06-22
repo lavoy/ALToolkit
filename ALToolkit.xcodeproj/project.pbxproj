@@ -30,6 +30,7 @@
 		A138993F1776513600F52131 /* UIScreen+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899371776513500F52131 /* UIScreen+ALToolkitAdditions.m */; };
 		A13899401776513600F52131 /* UIView+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */; };
 		A1389943177651C200F52131 /* NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1389942177651C200F52131 /* NSArrayTests.m */; };
+		A1A33A5117765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A33A5017765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALToolkitAdditions.m"; sourceTree = "<group>"; };
 		A1389941177651C200F52131 /* NSArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayTests.h; sourceTree = "<group>"; };
 		A1389942177651C200F52131 /* NSArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTests.m; sourceTree = "<group>"; };
+		A1A33A4F17765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A1A33A5017765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+ALToolkitAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +194,8 @@
 				A138992D1776513500F52131 /* NSArray+ALToolkitAdditions.m */,
 				A138992E1776513500F52131 /* NSDictionary+ALToolkitAdditions.h */,
 				A138992F1776513500F52131 /* NSDictionary+ALToolkitAdditions.m */,
+				A1A33A4F17765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.h */,
+				A1A33A5017765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.m */,
 				A13899301776513500F52131 /* NSString+ALToolkitAdditions.h */,
 				A13899311776513500F52131 /* NSString+ALToolkitAdditions.m */,
 				A13899321776513500F52131 /* NSUserDefaults+ALToolkitAdditions.h */,
@@ -326,6 +331,7 @@
 				A138993E1776513600F52131 /* UIColor+ALToolkitAdditions.m in Sources */,
 				A138993F1776513600F52131 /* UIScreen+ALToolkitAdditions.m in Sources */,
 				A13899401776513600F52131 /* UIView+ALToolkitAdditions.m in Sources */,
+				A1A33A5117765B140067DCBC /* NSOrderedSet+ALToolkitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
