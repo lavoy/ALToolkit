@@ -69,4 +69,11 @@
     STAssertEqualObjects(filteredArray[4], @(4), nil);
 }
 
+- (void)testSafeObject
+{
+    STAssertEqualObjects([self.array safeObjectAtIndex:0], @(0), nil);
+    STAssertEqualObjects([self.array safeObjectAtIndex:2], @(2), nil);
+    STAssertNil([self.array safeObjectAtIndex:20], nil);
+}
+
 @end
