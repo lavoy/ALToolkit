@@ -22,7 +22,6 @@
 		A138991517764FDF00F52131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898EF17764FDF00F52131 /* UIKit.framework */; };
 		A138991617764FDF00F52131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898F117764FDF00F52131 /* Foundation.framework */; };
 		A138991E17764FDF00F52131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A138991C17764FDF00F52131 /* InfoPlist.strings */; };
-		A138992117764FDF00F52131 /* ALToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A138992017764FDF00F52131 /* ALToolkitTests.m */; };
 		A138993A1776513500F52131 /* NSArray+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A138992D1776513500F52131 /* NSArray+ALToolkitAdditions.m */; };
 		A138993B1776513600F52131 /* NSDictionary+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A138992F1776513500F52131 /* NSDictionary+ALToolkitAdditions.m */; };
 		A138993C1776513600F52131 /* NSString+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899311776513500F52131 /* NSString+ALToolkitAdditions.m */; };
@@ -30,6 +29,7 @@
 		A138993E1776513600F52131 /* UIColor+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899351776513500F52131 /* UIColor+ALToolkitAdditions.m */; };
 		A138993F1776513600F52131 /* UIScreen+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899371776513500F52131 /* UIScreen+ALToolkitAdditions.m */; };
 		A13899401776513600F52131 /* UIView+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */; };
+		A1389943177651C200F52131 /* NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1389942177651C200F52131 /* NSArrayTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,6 @@
 		A138991317764FDF00F52131 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A138991B17764FDF00F52131 /* ALToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ALToolkitTests-Info.plist"; sourceTree = "<group>"; };
 		A138991D17764FDF00F52131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A138991F17764FDF00F52131 /* ALToolkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALToolkitTests.h; sourceTree = "<group>"; };
-		A138992017764FDF00F52131 /* ALToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALToolkitTests.m; sourceTree = "<group>"; };
 		A138992B1776513500F52131 /* ALToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALToolkit.h; sourceTree = "<group>"; };
 		A138992C1776513500F52131 /* NSArray+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ALToolkitAdditions.h"; sourceTree = "<group>"; };
 		A138992D1776513500F52131 /* NSArray+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ALToolkitAdditions.m"; sourceTree = "<group>"; };
@@ -80,6 +78,8 @@
 		A13899371776513500F52131 /* UIScreen+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+ALToolkitAdditions.m"; sourceTree = "<group>"; };
 		A13899381776513500F52131 /* UIView+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALToolkitAdditions.h"; sourceTree = "<group>"; };
 		A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A1389941177651C200F52131 /* NSArrayTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayTests.h; sourceTree = "<group>"; };
+		A1389942177651C200F52131 /* NSArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +167,8 @@
 		A138991917764FDF00F52131 /* ALToolkitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A138991F17764FDF00F52131 /* ALToolkitTests.h */,
-				A138992017764FDF00F52131 /* ALToolkitTests.m */,
+				A1389941177651C200F52131 /* NSArrayTests.h */,
+				A1389942177651C200F52131 /* NSArrayTests.m */,
 				A138991A17764FDF00F52131 /* Supporting Files */,
 			);
 			path = ALToolkitTests;
@@ -333,7 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A138992117764FDF00F52131 /* ALToolkitTests.m in Sources */,
+				A1389943177651C200F52131 /* NSArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
