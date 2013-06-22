@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13898F017764FDF00F52131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898EF17764FDF00F52131 /* UIKit.framework */; };
+		A13898F217764FDF00F52131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898F117764FDF00F52131 /* Foundation.framework */; };
+		A13898F417764FDF00F52131 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898F317764FDF00F52131 /* CoreGraphics.framework */; };
+		A13898FA17764FDF00F52131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A13898F817764FDF00F52131 /* InfoPlist.strings */; };
+		A13898FC17764FDF00F52131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13898FB17764FDF00F52131 /* main.m */; };
+		A138990017764FDF00F52131 /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13898FF17764FDF00F52131 /* ALAppDelegate.m */; };
+		A138990217764FDF00F52131 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A138990117764FDF00F52131 /* Default.png */; };
+		A138990417764FDF00F52131 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A138990317764FDF00F52131 /* Default@2x.png */; };
+		A138990617764FDF00F52131 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A138990517764FDF00F52131 /* Default-568h@2x.png */; };
+		A138990917764FDF00F52131 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A138990817764FDF00F52131 /* ALViewController.m */; };
+		A138990C17764FDF00F52131 /* ALViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A138990A17764FDF00F52131 /* ALViewController.xib */; };
+		A138991417764FDF00F52131 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A138991317764FDF00F52131 /* SenTestingKit.framework */; };
+		A138991517764FDF00F52131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898EF17764FDF00F52131 /* UIKit.framework */; };
+		A138991617764FDF00F52131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13898F117764FDF00F52131 /* Foundation.framework */; };
+		A138991E17764FDF00F52131 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A138991C17764FDF00F52131 /* InfoPlist.strings */; };
+		A138992117764FDF00F52131 /* ALToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A138992017764FDF00F52131 /* ALToolkitTests.m */; };
+		A138993A1776513500F52131 /* NSArray+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A138992D1776513500F52131 /* NSArray+ALToolkitAdditions.m */; };
+		A138993B1776513600F52131 /* NSDictionary+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A138992F1776513500F52131 /* NSDictionary+ALToolkitAdditions.m */; };
+		A138993C1776513600F52131 /* NSString+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899311776513500F52131 /* NSString+ALToolkitAdditions.m */; };
+		A138993D1776513600F52131 /* NSUserDefaults+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899331776513500F52131 /* NSUserDefaults+ALToolkitAdditions.m */; };
+		A138993E1776513600F52131 /* UIColor+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899351776513500F52131 /* UIColor+ALToolkitAdditions.m */; };
+		A138993F1776513600F52131 /* UIScreen+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899371776513500F52131 /* UIScreen+ALToolkitAdditions.m */; };
+		A13899401776513600F52131 /* UIView+ALToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A138991717764FDF00F52131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13898E417764FDF00F52131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13898EB17764FDF00F52131;
+			remoteInfo = ALToolkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13898EC17764FDF00F52131 /* ALToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13898EF17764FDF00F52131 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A13898F117764FDF00F52131 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A13898F317764FDF00F52131 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A13898F717764FDF00F52131 /* ALToolkit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ALToolkit-Info.plist"; sourceTree = "<group>"; };
+		A13898F917764FDF00F52131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A13898FB17764FDF00F52131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13898FD17764FDF00F52131 /* ALToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ALToolkit-Prefix.pch"; sourceTree = "<group>"; };
+		A13898FE17764FDF00F52131 /* ALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		A13898FF17764FDF00F52131 /* ALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
+		A138990117764FDF00F52131 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A138990317764FDF00F52131 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A138990517764FDF00F52131 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A138990717764FDF00F52131 /* ALViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
+		A138990817764FDF00F52131 /* ALViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
+		A138990B17764FDF00F52131 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALViewController.xib; sourceTree = "<group>"; };
+		A138991217764FDF00F52131 /* ALToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A138991317764FDF00F52131 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A138991B17764FDF00F52131 /* ALToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ALToolkitTests-Info.plist"; sourceTree = "<group>"; };
+		A138991D17764FDF00F52131 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A138991F17764FDF00F52131 /* ALToolkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALToolkitTests.h; sourceTree = "<group>"; };
+		A138992017764FDF00F52131 /* ALToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALToolkitTests.m; sourceTree = "<group>"; };
+		A138992B1776513500F52131 /* ALToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALToolkit.h; sourceTree = "<group>"; };
+		A138992C1776513500F52131 /* NSArray+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A138992D1776513500F52131 /* NSArray+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A138992E1776513500F52131 /* NSDictionary+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A138992F1776513500F52131 /* NSDictionary+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A13899301776513500F52131 /* NSString+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A13899311776513500F52131 /* NSString+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A13899321776513500F52131 /* NSUserDefaults+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A13899331776513500F52131 /* NSUserDefaults+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A13899341776513500F52131 /* UIColor+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A13899351776513500F52131 /* UIColor+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A13899361776513500F52131 /* UIScreen+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A13899371776513500F52131 /* UIScreen+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+		A13899381776513500F52131 /* UIView+ALToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALToolkitAdditions.h"; sourceTree = "<group>"; };
+		A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALToolkitAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13898E917764FDF00F52131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13898F017764FDF00F52131 /* UIKit.framework in Frameworks */,
+				A13898F217764FDF00F52131 /* Foundation.framework in Frameworks */,
+				A13898F417764FDF00F52131 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A138990E17764FDF00F52131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A138991417764FDF00F52131 /* SenTestingKit.framework in Frameworks */,
+				A138991517764FDF00F52131 /* UIKit.framework in Frameworks */,
+				A138991617764FDF00F52131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13898E317764FDF00F52131 = {
+			isa = PBXGroup;
+			children = (
+				A13898F517764FDF00F52131 /* ALToolkit */,
+				A138991917764FDF00F52131 /* ALToolkitTests */,
+				A13898EE17764FDF00F52131 /* Frameworks */,
+				A13898ED17764FDF00F52131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13898ED17764FDF00F52131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13898EC17764FDF00F52131 /* ALToolkit.app */,
+				A138991217764FDF00F52131 /* ALToolkitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13898EE17764FDF00F52131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A13898EF17764FDF00F52131 /* UIKit.framework */,
+				A13898F117764FDF00F52131 /* Foundation.framework */,
+				A13898F317764FDF00F52131 /* CoreGraphics.framework */,
+				A138991317764FDF00F52131 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A13898F517764FDF00F52131 /* ALToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A13898FE17764FDF00F52131 /* ALAppDelegate.h */,
+				A13898FF17764FDF00F52131 /* ALAppDelegate.m */,
+				A138990717764FDF00F52131 /* ALViewController.h */,
+				A138990817764FDF00F52131 /* ALViewController.m */,
+				A138990A17764FDF00F52131 /* ALViewController.xib */,
+				A138992A1776513500F52131 /* ALToolkit */,
+				A13898F617764FDF00F52131 /* Supporting Files */,
+			);
+			path = ALToolkit;
+			sourceTree = "<group>";
+		};
+		A13898F617764FDF00F52131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13898F717764FDF00F52131 /* ALToolkit-Info.plist */,
+				A13898F817764FDF00F52131 /* InfoPlist.strings */,
+				A13898FB17764FDF00F52131 /* main.m */,
+				A13898FD17764FDF00F52131 /* ALToolkit-Prefix.pch */,
+				A138990117764FDF00F52131 /* Default.png */,
+				A138990317764FDF00F52131 /* Default@2x.png */,
+				A138990517764FDF00F52131 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A138991917764FDF00F52131 /* ALToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A138991F17764FDF00F52131 /* ALToolkitTests.h */,
+				A138992017764FDF00F52131 /* ALToolkitTests.m */,
+				A138991A17764FDF00F52131 /* Supporting Files */,
+			);
+			path = ALToolkitTests;
+			sourceTree = "<group>";
+		};
+		A138991A17764FDF00F52131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A138991B17764FDF00F52131 /* ALToolkitTests-Info.plist */,
+				A138991C17764FDF00F52131 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A138992A1776513500F52131 /* ALToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				A138992B1776513500F52131 /* ALToolkit.h */,
+				A138992C1776513500F52131 /* NSArray+ALToolkitAdditions.h */,
+				A138992D1776513500F52131 /* NSArray+ALToolkitAdditions.m */,
+				A138992E1776513500F52131 /* NSDictionary+ALToolkitAdditions.h */,
+				A138992F1776513500F52131 /* NSDictionary+ALToolkitAdditions.m */,
+				A13899301776513500F52131 /* NSString+ALToolkitAdditions.h */,
+				A13899311776513500F52131 /* NSString+ALToolkitAdditions.m */,
+				A13899321776513500F52131 /* NSUserDefaults+ALToolkitAdditions.h */,
+				A13899331776513500F52131 /* NSUserDefaults+ALToolkitAdditions.m */,
+				A13899341776513500F52131 /* UIColor+ALToolkitAdditions.h */,
+				A13899351776513500F52131 /* UIColor+ALToolkitAdditions.m */,
+				A13899361776513500F52131 /* UIScreen+ALToolkitAdditions.h */,
+				A13899371776513500F52131 /* UIScreen+ALToolkitAdditions.m */,
+				A13899381776513500F52131 /* UIView+ALToolkitAdditions.h */,
+				A13899391776513500F52131 /* UIView+ALToolkitAdditions.m */,
+			);
+			path = ALToolkit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13898EB17764FDF00F52131 /* ALToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A138992417764FDF00F52131 /* Build configuration list for PBXNativeTarget "ALToolkit" */;
+			buildPhases = (
+				A13898E817764FDF00F52131 /* Sources */,
+				A13898E917764FDF00F52131 /* Frameworks */,
+				A13898EA17764FDF00F52131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALToolkit;
+			productName = ALToolkit;
+			productReference = A13898EC17764FDF00F52131 /* ALToolkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A138991117764FDF00F52131 /* ALToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A138992717764FDF00F52131 /* Build configuration list for PBXNativeTarget "ALToolkitTests" */;
+			buildPhases = (
+				A138990D17764FDF00F52131 /* Sources */,
+				A138990E17764FDF00F52131 /* Frameworks */,
+				A138990F17764FDF00F52131 /* Resources */,
+				A138991017764FDF00F52131 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A138991817764FDF00F52131 /* PBXTargetDependency */,
+			);
+			name = ALToolkitTests;
+			productName = ALToolkitTests;
+			productReference = A138991217764FDF00F52131 /* ALToolkitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13898E417764FDF00F52131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Log Cabin";
+			};
+			buildConfigurationList = A13898E717764FDF00F52131 /* Build configuration list for PBXProject "ALToolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A13898E317764FDF00F52131;
+			productRefGroup = A13898ED17764FDF00F52131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13898EB17764FDF00F52131 /* ALToolkit */,
+				A138991117764FDF00F52131 /* ALToolkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13898EA17764FDF00F52131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13898FA17764FDF00F52131 /* InfoPlist.strings in Resources */,
+				A138990217764FDF00F52131 /* Default.png in Resources */,
+				A138990417764FDF00F52131 /* Default@2x.png in Resources */,
+				A138990617764FDF00F52131 /* Default-568h@2x.png in Resources */,
+				A138990C17764FDF00F52131 /* ALViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A138990F17764FDF00F52131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A138991E17764FDF00F52131 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A138991017764FDF00F52131 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13898E817764FDF00F52131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13898FC17764FDF00F52131 /* main.m in Sources */,
+				A138990017764FDF00F52131 /* ALAppDelegate.m in Sources */,
+				A138990917764FDF00F52131 /* ALViewController.m in Sources */,
+				A138993A1776513500F52131 /* NSArray+ALToolkitAdditions.m in Sources */,
+				A138993B1776513600F52131 /* NSDictionary+ALToolkitAdditions.m in Sources */,
+				A138993C1776513600F52131 /* NSString+ALToolkitAdditions.m in Sources */,
+				A138993D1776513600F52131 /* NSUserDefaults+ALToolkitAdditions.m in Sources */,
+				A138993E1776513600F52131 /* UIColor+ALToolkitAdditions.m in Sources */,
+				A138993F1776513600F52131 /* UIScreen+ALToolkitAdditions.m in Sources */,
+				A13899401776513600F52131 /* UIView+ALToolkitAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A138990D17764FDF00F52131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A138992117764FDF00F52131 /* ALToolkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A138991817764FDF00F52131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13898EB17764FDF00F52131 /* ALToolkit */;
+			targetProxy = A138991717764FDF00F52131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13898F817764FDF00F52131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13898F917764FDF00F52131 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A138990A17764FDF00F52131 /* ALViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A138990B17764FDF00F52131 /* en */,
+			);
+			name = ALViewController.xib;
+			sourceTree = "<group>";
+		};
+		A138991C17764FDF00F52131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A138991D17764FDF00F52131 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A138992217764FDF00F52131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A138992317764FDF00F52131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A138992517764FDF00F52131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ALToolkit/ALToolkit-Prefix.pch";
+				INFOPLIST_FILE = "ALToolkit/ALToolkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A138992617764FDF00F52131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ALToolkit/ALToolkit-Prefix.pch";
+				INFOPLIST_FILE = "ALToolkit/ALToolkit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A138992817764FDF00F52131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ALToolkit.app/ALToolkit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ALToolkit/ALToolkit-Prefix.pch";
+				INFOPLIST_FILE = "ALToolkitTests/ALToolkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A138992917764FDF00F52131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ALToolkit.app/ALToolkit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ALToolkit/ALToolkit-Prefix.pch";
+				INFOPLIST_FILE = "ALToolkitTests/ALToolkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13898E717764FDF00F52131 /* Build configuration list for PBXProject "ALToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A138992217764FDF00F52131 /* Debug */,
+				A138992317764FDF00F52131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A138992417764FDF00F52131 /* Build configuration list for PBXNativeTarget "ALToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A138992517764FDF00F52131 /* Debug */,
+				A138992617764FDF00F52131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A138992717764FDF00F52131 /* Build configuration list for PBXNativeTarget "ALToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A138992817764FDF00F52131 /* Debug */,
+				A138992917764FDF00F52131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13898E417764FDF00F52131 /* Project object */;
+}
