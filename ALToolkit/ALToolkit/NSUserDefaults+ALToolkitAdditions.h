@@ -11,5 +11,6 @@
 
 + (id)objectForKey:(NSString *)defaultName;
 + (void)setObject:(id)object forKey:(NSString *)key completion:(void (^)(void))completionBlock;
++ (void)setObjectsForKeys:(NSDictionary *)dictionary completion:(void (^)(void))completionBlock;
 
 @end
