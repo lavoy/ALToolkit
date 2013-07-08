@@ -20,6 +20,13 @@
             obj = [self objectForKey:key];
         }
     }
+    
+    if (class == [NSString class]) {
+        if ([obj isEqualToString:@""]) {
+            obj = nil;
+        }
+    }
+    
     return obj;
 }
 
