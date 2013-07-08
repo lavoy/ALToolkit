@@ -10,6 +10,10 @@
 @implementation NSDictionary (ALToolkitAdditions)
 
 - (id)safeObjectForKey:(NSString *)key class:(Class)class {
+    if (![self isKindOfClass:[NSDictionary class]]) {
+        return nil;
+    }
+    
     id obj = nil;
     if ([self isKindOfClass:[NSDictionary class]]) {
         if ([[self objectForKey:key] isKindOfClass:class]) {
