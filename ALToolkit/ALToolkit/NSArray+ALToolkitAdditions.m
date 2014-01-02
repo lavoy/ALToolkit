@@ -10,6 +10,10 @@
 @implementation NSArray (ALToolkitAdditions)
 
 - (id)safeObjectAtIndex:(NSUInteger)index {
+    if (![self isKindOfClass:[NSArray class]]) {
+        return nil;
+    }
+    
     id object = nil;
     
     if ([self count] > index) {

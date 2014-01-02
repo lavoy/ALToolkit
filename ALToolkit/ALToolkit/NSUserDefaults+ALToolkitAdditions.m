@@ -28,4 +28,20 @@
 }
 
 
++ (void)setObjectsForKeys:(NSDictionary *)dictionary completion:(void (^)(void))completionBlock {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+        [dictionary enumerateKeysAndObjectsUsingBlock:^(id key, id object, BOOL *stop) {
+            [[NSUserDefaults standardUserDefaults] setObject:object forKey:key];
+        }];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        if (completionBlock) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                completionBlock();
+            });
+        }
+    });
+}
+
+
 @end
