@@ -12,5 +12,6 @@
 - (id)safeObjectAtIndex:(NSUInteger)index;
 - (NSArray *)al_map:(id (^)(id object))mapBlock;
 - (NSArray *)al_filter:(BOOL (^)(id object))filterBlock;
+- (id)al_find:(BOOL (^)(id object))findBlock;
 
 @end

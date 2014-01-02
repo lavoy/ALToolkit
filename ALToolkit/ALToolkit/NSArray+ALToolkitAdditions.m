@@ -45,4 +45,15 @@
 }
 
 
+- (id)al_find:(BOOL (^)(id object))findBlock {
+    for (id object in self) {
+        if (findBlock(object)) {
+            return object;
+        }
+    }
+    
+    return nil;
+}
+
+
 @end

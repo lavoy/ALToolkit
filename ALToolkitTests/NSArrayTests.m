@@ -69,6 +69,25 @@
     STAssertEqualObjects(filteredArray[4], @(4), nil);
 }
 
+- (void)testFind
+{
+    NSNumber *foundObject0 = [self.array al_find:^BOOL(NSNumber *num) {
+        return [num integerValue] < 5;
+    }];
+    
+    NSNumber *foundObject6 = [self.array al_find:^BOOL(NSNumber *num) {
+        return [num integerValue] > 5;
+    }];
+    
+    NSNumber *foundObject20 = [self.array al_find:^BOOL(NSNumber *num) {
+        return [num integerValue] > 19;
+    }];
+    
+    STAssertEqualObjects(foundObject0, @(0), nil);
+    STAssertEqualObjects(foundObject6, @(6), nil);
+    STAssertNil(foundObject20, nil);
+}
+
 - (void)testSafeObject
 {
     STAssertEqualObjects([self.array safeObjectAtIndex:0], @(0), nil);
