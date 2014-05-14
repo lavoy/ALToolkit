@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author        = { "Andy LaVoy" => "andy@logcabinapps.com" }
   s.source        = { :git => "https://github.com/lavoy/ALToolkit.git", :tag => "0.1" }
   s.platform      = :ios, '5.0'
-  s.source_files  = 'ALToolkit', 'ALToolkit/ALToolkit/*.{h,m}'
+  s.source_files  = 'ALToolkit/ALToolkit/*.{h,m}'
   s.framework     = 'Foundation'
   s.requires_arc  = true
 end
