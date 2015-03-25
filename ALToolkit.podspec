@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version       = "0.1"
   s.summary       = "ALToolkit is a collection of categories I find myself recreating all the time and decided to stop."
   s.homepage      = "https://github.com/lavoy/ALToolkit"
-  s.license       = { :type => "MIT", :file => 'LICENSE' }
+  s.license       = "MIT"
   s.author        = { "Andy LaVoy" => "andy@logcabinapps.com" }
   s.source        = { :git => "https://github.com/lavoy/ALToolkit.git", :tag => "0.1" }
   s.platform      = :ios, '5.0'
